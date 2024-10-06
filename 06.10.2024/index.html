@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Regestration Form</title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+    <body>
+        <center>
+        <h1>Regestration Form</h1>
+        <form>
+            <fieldset>
+            <legend>regester details</legend>
+            <label>Full Name</label><br>
+            <input type="text" name="full name" placeholder="Full Name"><br><br>
+            <label>Email address</label><br>
+            <input type="email" name="email" placeholder="enter email address"><br><br>
+            <label>Phone Number</label><br>
+            <input type="text" name="phone number" placeholder=" enter phone number"><br><br>
+            <label>Birth Date</label><br>
+            <input type="date"><br><br>   
+            <label>Gender</label><br>
+            <label>
+            <input type="radio" name="options" value="option1"> Male
+            </label>
+            <label>
+            <input type="radio" name="options" value="option2"> Female
+            </label>
+            <label>
+            <input type="radio" name="options" value="option3"> Other
+            </label><br><br>
+            <label>Address</label><br>
+            <input type="text" name="address" placeholder="enter street address" style="padding: 10px;"> <br> <br>
+            <input type="text" name="address" placeholder="enter street address 2" style="padding: 10px;"><br><br>
+            <form action="/submit" method="post">
+                <input type="submit" value="Submit" class="color-button">
+            </fieldset>
+        </form>
+        </center>
+        </form>
+    </body>
+</html>

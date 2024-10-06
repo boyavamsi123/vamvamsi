@@ -1,0 +1,15 @@
+.recorder_switch{
+    box-shadow: 0 0 0 0.125em var(--pramary-t),
+    0 0.25em hsla(0,0%,0%,0.1);
+    display: flex;
+    transition: background-color var(--trans-dur),
+    box-shadow var(--trans-dur) var(-trans-timing),transform-
+    origin var(--trans-dur) var(--trans timing);
+}
+.recorder_switch-handle{
+    transform-origin: 0 0.5em;
+    transition: background-color var(--trans-dur);
+    box-shadow: var(--trans-dur),transform
+    var(--trans-dur) var(--trans-timing),transform-
+    origin var(--trans-dur) var(--trans-timing);
+}
